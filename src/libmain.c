@@ -299,6 +299,7 @@ static void main_init(void)
 
 	gtk_window_set_default_size(GTK_WINDOW(main_widgets.window),
 		GEANY_WINDOW_DEFAULT_WIDTH, GEANY_WINDOW_DEFAULT_HEIGHT);
+	gtk_window_set_opacity(GTK_WINDOW(main_widgets.window), 0.8);
 }
 
 
